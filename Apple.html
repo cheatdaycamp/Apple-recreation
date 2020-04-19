@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang=en xml:lang="en">
+
+<head>
+    <title>
+        Apple
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="./css/apple.css">
+    <link rel="icon" href="./images/favicon.ico">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+    <!--HEADER-->
+    <div class="landing-wrapper">
+        <nav class="halign">
+            <div class="menu valign">
+                <ul>
+                    <li><a href="#Home"><i class="fa fa-apple"></i> </a></li>
+                    <li><a href="#Mac" class="menu-item">Mac</a></li>
+                    <li><a href="#iPad" class="menu-item">iPad</a></li>
+                    <li><a href="#iPhone" class="menu-item">iPhone</a></li>
+                    <li><a href="#Watch" class="menu-item">Watch</a></li>
+                    <li><a href="#TV" class="menu-item">TV</a></li>
+                    <li><a href="#Music" class="menu-item">Music</a></li>
+                    <li><a href="#Support" class="menu-item">Support</a></li>
+                    <li>
+                        <a href="#search" id="search"><img src="./images/magnifier.png" alt="Search" class="fa fa-search icons"></a>
+                    </li>
+                    <li>
+                        <a href="#Shopping_Cart" id="shop-cart"><i class=" fa fa-shopping-basket"></i></a>
+                    </li>
+                </ul>
+                <div class="search-form top">
+                    <form>
+                        <input type="text" name="a" placeholder="Search apple.com">
+                    </form>
+                </div>
+                <a class="close"><i class="fa fa-times"></i></a>
+            </div>
+        </nav>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('#search').click(function() {
+                $('.menu-item').addClass('hide-item')
+                $('.search-form').addClass('active')
+                $('.close').addClass('active')
+                $('#search').hide()
+                $('#shop-cart').hide()
+            })
+
+            $('.close').click(function() {
+                $('.menu-item').removeClass('hide-item')
+                $('.search-form').removeClass('active')
+                $('.close').removeClass('active')
+                $('#search').show()
+                $('#shop-cart').show()
+            })
+        })
+    </script>
+    <!--HEADER-->
+
+    <!--FIRST HORIZONTAL CARD-->
+    <main class="main">
+        <div class="div-01-iphonexr">
+            <div class="content-wrapper">
+                <h2 class="header-01 texts-01">
+                    iPhone XR from $18.99/mo. or $449.
+                </h2>
+                <h3 class="card01-width-subt texts-02">
+                    Two great ways to buy. Just trade in your current iPhone online or at an Apple Store.*
+                </h3>
+                <div class="card01-width-links texts-02">
+                    <a class="links typeb hover">Buy</a>
+                    <a class="links typeb">></a>
+                    <a class="links typec hover">Learn more</a>
+                    <a class="links typec">></a>
+                </div>
+            </div>
+        </div>
+        <!--SECOND HORIZONTAL CARD-->
+        <div class="div-02-03">
+            <div class="content-wrapper02">
+                <div class="iphonexr">
+                    <img src="./images/dark-iphone_xr_logo.png" alt="iPhoneXR" class="iphonexr-imgtitle halign">
+                </div>
+                <h3 class="card02-width-subt texts-03">
+                    All-screen design. Longest battery life ever in an iPhone. Fastest performance. Studio-quality photos.
+                </h3>
+                <div class="card01-width-links texts-02">
+                    <a class="links typeb hover">Learn more</a>
+                    <a class="links typeb">></a>
+                    <a class="links typec hover">Buy</a>
+                    <a class="links typec">></a>
+                </div>
+                <div class="iphone-bkg halign">
+                </div>
+            </div>
+        </div>
+        <!--THIRD HORIZONTAL CARD-->
+        <div class="div-02-03">
+            <div class="content-wrapper02">
+                <div class="iphonexr">
+                    <img src="./images/dark-iphone_xs_logo.png" alt="iPhoneXs" class="iphonexs-imgtitle halign">
+                </div>
+                <h3 class="card02-width-subt texts-03">
+                    Largest Super Retina display. Fastest performance with A12 Bionic. Most secure facial authentication with Face ID. Breaktrough dual cameras with Depth Control.
+                </h3>
+                <div class="card01-width-links texts-02">
+                    <a class="links typeb hover">Learn more</a>
+                    <a class="links typeb">></a>
+                    <a class="links typec hover">Buy</a>
+                    <a class="links typec">></a>
+                </div>
+                <div class="iphonexs-bkg halign">
+                </div>
+            </div>
+        </div>
+        <!--FOURTH HORIZONTAL CARD-->
+        <div class="div-02-03">
+            <div class="content-wrapper02">
+                <div class="iwatch">
+                    <img src="./images/watch02.jpg" alt="iWatch" class="watch-imgtitle halign">
+                </div>
+                <h3 class="card02-width-subt texts-03">
+                    More powerful, more colorful
+                </h3>
+                <div class="card01-width-links texts-02">
+                    <a class="links typeb hover">Learn more</a>
+                    <a class="links typeb">></a>
+                    <a class="links typec hover">Buy</a>
+                    <a class="links typec">></a>
+                </div>
+                <div class="watch-bkg halign">
+                </div>
+
+            </div>
+        </div>
+
+        <!--HALF SCREEN CARD-->
+
+        <div class="div-cards">
+            <div class="card-01 bkg-card01">
+                <img src="./images/apple_news_plus_logo_tile__c3qc90sq7auu_large.png" alt="News" class="news-imgtitle halign">
+
+                <h3 class="card03-width-subt texts-04">Everything you love about News. Plus</h3>
+                <span class="links-03"><a class="hover">Learn more</a> ></span>
+            </div>
+
+            <div class="card-02 bkg-card02">
+                <h3 class="texts-05">That's iPhone</h3>
+                <span class="links-04"><a class="hover">See all kind of things iPhone can do</a> ></span>
+            </div>
+
+        </div>
+        <!--HALF SCREEN CARD-->
+
+        <div class=" div-cards ">
+            <div class="card-03 bkg-card03">
+                <img src="./images/apple_tv_plus_logo_tile__c70a28m0a2c2_large.png" alt="iTV" class="itv halign">
+                <h3 class="card03-width-subt texts-03 white">Original stories from the most<br> creative minds in TV and film.
+                </h3>
+                <div class="card01-with-links texts-02 movetop-02 ">
+                    <span class="links typeb hover white"><a class="hover">Learn more</a> ></span>
+                </div>
+            </div>
+            <div class="card-02 bkg-card04">
+                <img src="./images/apple_card_logo_tile__b3ylxyt3ps4i_large.png" alt="iCard" class="itv halign">
+                <h3 class="card03-width-subt texts-04v Black">A new kind of credit card.<br>Created by Apple, not a bank.
+                </h3>
+                <div class="card01-with-links texts-02 movetop-02">
+                    <span class="links typeb hover"><a class="hover ">Learn more</a> ></span>
+                </div>
+
+            </div>
+        </div>
+        <!--HALF SCREEN CARD-->
+
+        <div class=" div-cards ">
+            <div class="card-05 bkg-card05">
+                <img src="./images/music_47492__y00ih1w2ugyy_large.png" alt="Music" class="itv halign">
+                <h3 class="card03-width-subt texts-04">Lose yourself in 50 million songs.</h3>
+                <span class="links-03 moveleft"><a class="hover ">Try it free**</a> ↗</span>
+                <span class="links-03 moveright"><a class="hover">Learn more</a> ></span>
+            </div>
+            <div class="card-06 bkg-card06">
+                <h2 class="header-01 texts-01 move-02">
+                    AirPods
+                </h2>
+                <h3 class="card03-width-subt texts-04v Black">Wireless charging. Voice-activated Siri.<br> More magical than ever</h3>
+                <div class="card01-with-links texts-02 movetop">
+                    <span class="links typeb hover"><a class="hover ">Learn more</a> ></span>
+                    <span class="links typeb hover moveright"><a class="hover">Buy</a> ></span>
+                </div>
+
+            </div>
+        </div>
+        <!---------------------------------------------------------------------              FOOTER                    ---------------------------->
+        <footer class="footer">
+            <div class=" footer-wrapper halign">
+                <ul class="footer-ul footer-small-text">
+                    <li>* iPhone&nbsp;X<span class=" all-small-caps ">R</span> pricing is after trade‑in of iPhone&nbsp;7&nbsp;Plus in good condition. Monthly pricing requires a 24‑month installment loan with a 0% APR, and iPhone activation. Applicable sales
+                        tax and fees due at time of purchase. Last payment may be less depending on remaining balance. Additional trade‑in values require purchase of a new iPhone, subject to availability and limits. You must be at least 18 years old.
+                        In‑store trade‑in requires presentation of a valid, government‑issued photo ID (local law may require saving this information). Additional terms from Apple or Apple’s trade‑in partners may apply. <a href="/legal/sales-support/iphoneinstallments_us/ ">Full
+                            terms
+                            apply</a></li>
+
+                    <li><br>** $9.99/month after free trial. No commitment. Plan automatically renews after trial until cancelled.
+                    </li>
+                </ul>
+                <div class="line"></div>
+
+                <nav class="footer-nav footer-small-text">
+                    <div class=" footer-nav-div">
+                        <ul>
+                            <li><b>Shop and Learn</b></li>
+                            <li><a href="https://www.apple.com/mac/">Mac</a></li>
+                            <li><a href="https://www.apple.com/ipad/">iPad</a></li>
+                            <li><a href="https://www.apple.com/iphone/">iPhone</a></li>
+                            <li><a href="https://www.apple.com/watch/">Watch</a></li>
+                            <li><a href="https://www.apple.com/tv/">TV</a></li>
+                            <li><a href="https://www.apple.com/music/">Music</a></li>
+                            <li><a href="https://www.apple.com/itunes/">iTunes</a></li>
+                            <li><a href="https://www.apple.com/homepod/">HomePod</a></li>
+                            <li><a href="https://www.apple.com/ipod-touch/">iPod touch</a></li>
+                            <li><a href="https://www.apple.com/apple-card/">Apple Card</a></li>
+                            <li><a href="https://www.apple.com/accessories/">Accessories</a></li>
+                            <li><a href="https://www.apple.com/gift-cards/">Gift Cards</a></li>
+                        </ul>
+                    </div>
+
+                    <div class=" footer-nav-div ">
+                        <ul>
+                            <li><b>Apple Store</b></li>
+                            <li><a href="https://www.apple.com/retail/">Find a Store</a></li>
+                            <li><a href="https://www.apple.com/retail/geniusbar/">Genius Bar</a></li>
+                            <li><a href="https://www.apple.com/today/">Today at Apple</a></li>
+                            <li><a href="https://www.apple.com/today/camp/">Apple Camp</a></li>
+                            <li><a href="https://www.apple.com/retail/fieldtrip/">Field Trip</a></li>
+                            <li><a href="https://itunes.apple.com/app/apple-store/id375380948?pt=2003&ct=footer&mt=8">Apple
+                                    Store App</a></li>
+                            <li><a href="https://www.apple.com/us/shop/goto/special_deals">Refurbished and
+                                    Clearance</a>
+                            </li>
+                            <li><a href="https://www.apple.com/us/shop/goto/payment_plan">Financing</a></li>
+                            <li><a href="https://www.apple.com/us/shop/goto/trade_in">Apple Trade in</a>
+                            </li>
+                            <li><a href="https://www.apple.com/us/shop/goto/order/list">Order Status</a>
+                            </li>
+                            <li><a href="https://www.apple.com/us/shop/goto/help">Shopping Help</a></li>
+                        </ul>
+                    </div>
+
+                    <div class=" footer-nav-div ">
+                        <ul>
+                            <li><b>For Education</b></li>
+                            <li><a href="https://www.apple.com/education/">Apple and Education</a></li>
+                            <li><a href="https://www.apple.com/us/shop/goto/educationrouting">Shop for
+                                    College <br></a>
+                            </li>
+
+                            <li><b>For Business</b></li>
+                            <li><a href="https://www.apple.com/business/">Apple and Business</a></li>
+                            <li><a href="https://www.apple.com/retail/business/">Shop for Business <br></a></li>
+
+                            <li><b>For Healthcare</b></li>
+                            <li><a href="https://www.apple.com/healthcare/">Apple in Healthcare</a></li>
+                            <li><a href="https://www.apple.com/healthcare/apple-watch/">Health on Apple
+                                    Watch</a>
+                            </li>
+                            <li><a href="https://www.apple.com/healthcare/health-records/">Health Records on
+                                    iPhone</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class=" footer-nav-div ">
+                        <ul>
+                            <li><b>Account</b></li>
+                            <li><a href="https://appleid.apple.com/us/">Manage Your Apple ID</a></li>
+                            <li><a href="https://www.apple.com/us/shop/goto/account">Apple Store Account</a>
+                            </li>
+                            <li><a href="hhttps://www.icloud.com/">iCloud.com<br></a></li>
+                            <li><b>Apple Values</b></li>
+                            <li><a href="https://www.apple.com/accessibility/">Accessibility</a></li>
+                            <li><a href="https://www.apple.com/education/connectED/">Education</a></li>
+                            <li><a href="https://www.apple.com/environment/">Environment</a></li>
+                            <li><a href="https://www.apple.com/diversity/">Inclusion and Diversity</a></li>
+                            <li><a href="https://www.apple.com/privacy/">Privacy</a></li>
+                            <li><a href="https://www.apple.com/supplier-responsibility/">Supplier
+                                    Responsibility</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class=" footer-nav-div ">
+                        <ul>
+                            <li><b>For Government</b></li>
+                            <li><a href="https://www.apple.com/r/store/government/">Shop for Government</a>
+                            </li>
+                            <li><a href="https://www.apple.com/us/shop/goto/eppstore/veteransandmilitary">Shop
+                                    for
+                                    Veterans and Military <br></a></li>
+
+                            <li><b>About Apple</b></li>
+                            <li><a href="https://www.apple.com/newsroom/">Newsroom</a></li>
+                            <li><a href="https://www.apple.com/leadership/">Apple Leadership</a></li>
+                            <li><a href="https://www.apple.com/jobs/us/">Job Opportunities</a></li>
+                            <li><a href="http://investor.apple.com/">Investors</a></li>
+                            <li><a href="https://www.apple.com/apple-events/">Events</a></li>
+                            <li><a href="https://www.apple.com/contact/">Contact Apple</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <hr class="line">
+            </div>
+        </footer>
+    </main>
+
+
+    <!--DIVS MAIN-->
+
+</body>
+
+</html>
